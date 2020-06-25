@@ -8,8 +8,6 @@
 
 import Foundation
 
-func power(_ arg1: String?) -> Int {
-    var res = Int(arg1!)!
-        res *= Int(arg1!)!
-        return Int(1/res)
+func sqrtt(_ arg1: String?) -> Double {
+    return sqrt(Double(arg1!)!)
 }

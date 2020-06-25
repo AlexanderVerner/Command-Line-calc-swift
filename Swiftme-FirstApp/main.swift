@@ -23,7 +23,7 @@ case "+" : print("Answer: sum = \(sum(getFirstArg(), getSecondArg()))")
 case "-" : print("Answer: diff = \(diff(getFirstArg(), getSecondArg()))")
 case "*" : print("Answer: mult = \(mult(getFirstArg(), getSecondArg()))")
 case "/" : print("Answer: del = \(del(getFirstArg(), getSecondArg()))")
-//case "sq" : print("Answer: sqrt = \(sqrt(getFirstArg()))")
+case "sq" : print("Answer: sqrt = \(sqrtt(getFirstArg()))")
 case "pw" : print("Answer: value in power = \(power(getFirstArg(), getPowerArg()))")
 default:
     print("Write correted sign. You can to use: +, -, *, /, pw, sq. Try again! ")
