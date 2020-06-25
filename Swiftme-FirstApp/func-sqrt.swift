@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
-func sqrtt(_ arg1: String?) -> Double {
+//The square function with using closures
+func sqrtf(_ arg1: String?) -> Double {
     return sqrt(Double(arg1!)!)
 }

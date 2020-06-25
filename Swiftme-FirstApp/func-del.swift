@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
-func del(_ arg1: String?, _ arg2: String?) -> Int {
+//Subtraction function with using closures
+func sub(_ arg1: String?, _ arg2: String?) -> Int {
     return Int(arg1!)! / Int(arg2!)!
 }

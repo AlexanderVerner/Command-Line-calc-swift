@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+//Power function with using closures
 func power(_ arg1: String?, _ arg2: String?) -> Int {
     var i = 0
     var res = Int(arg1!)!

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
-func sum(_ arg1: String?, _ arg2: String?) -> Int {
+//Addittion function with using closures
+func addition(_ arg1: String?, _ arg2: String?) -> Int {
     return Int(arg1!)! + Int(arg2!)!
 }

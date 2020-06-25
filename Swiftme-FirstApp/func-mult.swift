@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+//Multiplication function with using closures
 func mult(_ arg1: String?, _ arg2: String?) -> Int {
     return Int(arg1!)! * Int(arg2!)!
 }

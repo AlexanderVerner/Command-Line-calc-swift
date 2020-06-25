@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
-func diff(_ arg1: String?, _ arg2: String?) -> Int {
+//Division function with using closures
+func divs(_ arg1: String?, _ arg2: String?) -> Int {
     return Int(arg1!)! - Int(arg2!)!
 }
