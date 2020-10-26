@@ -8,7 +8,7 @@
 
 import Foundation
 //Show help message with enumerate opportunities in this console application
-print("Select sign for expression. You can use next sign: +, -, *, /, pw, sq. You sign: ")
+print("Select sign for expression. You can use next sign: +, -, *, /, pw, sq. Your sign: ")
 //Left term
 var a: String?
 //Right term
